@@ -32,7 +32,7 @@ function genImage(count, theme, length, pixelated) {
     `<svg width="${x}" height="${height}" version="1.1"` +
     ' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"' +
     `${pixelated ? ' style="image-rendering: pixelated"' : ''}>` +
-    `<title>Moe Counter</title><g>${parts}</g></svg>`
+    `<title>Moe Counter: ${count}</title><g>${parts}</g></svg>`
   );
 }
 
